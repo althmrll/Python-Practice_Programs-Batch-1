@@ -2,8 +2,8 @@
 
 while True:
     try:
-        one= int(input("Enter 1st number:"))
-        two= int(input("Enter 2nd number:"))
+        one= float(input("Enter 1st number:"))
+        two= float(input("Enter 2nd number:"))
         quotient= one/two
         print ("the quotient of", one, "and", two, "is", quotient, ".")
     except ValueError:
