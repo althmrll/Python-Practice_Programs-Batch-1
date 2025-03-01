@@ -11,4 +11,4 @@ while True:
             print (one, "and", two, "are NOT equal.")
 
     except ValueError:
-        Print ("!!INVALID INPUT. PLEASE ENTER A NUMBER!!")
+        print ("!!INVALID INPUT. PLEASE ENTER A NUMBER!!")
