@@ -3,7 +3,7 @@
 while True:
     try:
         one= int(input("Enter 1st number:"))
-        wo= int(input("Enter 2nd number:"))
+        two= int(input("Enter 2nd number:"))
 
         if one>two:
             print (one, "is bigger.")
@@ -11,7 +11,7 @@ while True:
             print(two, "is bigger.")
         else:
             print (one, "and", two, "are equal.")
-            
+
     except ValueError:
         print ("!!INVALID INPUT. PLEASE TYPE A NUMBER!!")
 
