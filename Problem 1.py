@@ -11,6 +11,7 @@ while True:
             print(two, "is bigger.")
         else:
             print (one, "and", two, "are equal.")
+            break
 
     except ValueError:
         print ("!!INVALID INPUT. PLEASE TYPE A NUMBER!!")
