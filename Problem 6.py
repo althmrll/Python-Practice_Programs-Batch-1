@@ -4,7 +4,7 @@ while True:
     try:
         one= int(input("Enter 1st number:"))
         two= int(input("Enter 2nd number:"))
-        power= one^two
+        power= one**two
         print (one, "raise to", two, "is", power, ".")
     except ValueError:
         print ("!!INVALID INPUT. PLEASE ENTER A NUMBER!!")
