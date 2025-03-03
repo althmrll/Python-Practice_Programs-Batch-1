@@ -9,7 +9,8 @@ while True:
     try:
         one = 0
         count = 0
-        if count!=10:
+        while count!=10:
+            print ("count:", count)
             number= int(input("Enter number:"))
             one = one + number
             count = count + 1
