@@ -10,12 +10,12 @@ while True:
         one = 0
         count = 0
         while count!=10:
-            print ("count:", count)
+            print ("Numbers entered:", count)
             number= int(input("Enter number:"))
             one = one + number
             count = count + 1
         else: 
-            print (one)
+            print ("The sum of the ten numbers are", one)
     
     except ValueError:
         print ("!!INVALID INPUT. PLEASE ENTER A NUMBER!!")
