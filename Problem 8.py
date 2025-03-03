@@ -13,7 +13,7 @@ while True:
         while count != 10:
             number= int(input("Enter number:"))
             count = count + 1
-            if number == odd:
+            if number%2== 1:
                 odd= odd+1
         
         else:
