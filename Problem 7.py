@@ -4,13 +4,12 @@
 global count
 global one
 
-# Program itself
+print ("Input 10 numbers and we will tell you the sum of those number")
 while True:
     try:
         one = 0
         count = 0
         while count!=10:
-            print ("Numbers entered:", count)
             number= int(input("Enter number:"))
             one = one + number
             count = count + 1
